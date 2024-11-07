@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 
 
-export default function RootLayout({ children }: React.PropsWithChildren<{}>) {
+export default function RootLayout({ children }: React.PropsWithChildren) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

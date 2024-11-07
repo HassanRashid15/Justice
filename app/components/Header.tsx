@@ -58,10 +58,10 @@ function Header() {
             </li>
             <li>
               <Link
-                href="/"
+                href="/about"
                 className="block text-gray-500 hover:text-gray-300 py-2 md:mx-2"
               >
-                Home
+                About
               </Link>
             </li>
             <li>
