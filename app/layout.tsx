@@ -13,7 +13,7 @@ export default function RootLayout({ children }: React.PropsWithChildren<{}>) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Hide preloader after 6 seconds
-    }, 500);
+    }, 9000);
 
     return () => clearTimeout(timer);
   }, []);
