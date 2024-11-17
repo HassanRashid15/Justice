@@ -4,7 +4,9 @@
 
 :root {
   --background: #ffffff;
+  overflow-x: hidden;
   --foreground: #171717;
+  --primary-color:#b49c73;
 }
 
 @media (prefers-color-scheme: dark) {

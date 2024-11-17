@@ -65,8 +65,8 @@ function Practice() {
       {/* First section */}
       <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2">
         <div className="md:flex md:flex-col md:justify-center">
-          <h2 className="text-black text-2xl md:text-4xl lg:text-6xl font-bold mb-4">
-            Our Practice Areas
+          <h2 className="text-white text-2xl md:text-4xl lg:text-6xl font-bold mb-4">
+          Our  <span style={{ color: "var(--primary-color)" }}>Practice Areas</span>
           </h2>
           <p className="md:text-lg text-gray-900">
             Far far away, behind the word mountains, far from the countries
