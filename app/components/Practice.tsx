@@ -1,30 +1,31 @@
 import React from "react";
 import { FaStar, FaHeart, FaCheckCircle } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const cardData = [
   {
     icon: <FaStar />,
-    title: "Your Title Here",
+    title: "Banking and Finance Law",
     description:
-      "Your description goes here. It can be a short paragraph providing more information about the title.",
+      "Far far away, behind the word mountains, far from the countries.",
   },
   {
     icon: <FaHeart />,
-    title: "Your Title Here 2",
+    title: "Commercial Law",
     description:
-      "Your description goes here. It can be a short paragraph providing more information about the title.",
+      "Far far away, behind the word mountains, far from the countries.",
   },
   {
     icon: <FaCheckCircle />,
-    title: "Your Title Here 3",
+    title: "Corporate Law",
     description:
-      "Your description goes here. It can be a short paragraph providing more information about the title.",
+      "Far far away, behind the word mountains, far from the countries.",
   },
   {
     icon: <FaStar />,
-    title: "Your Title Here 4",
+    title: "Criminal Law",
     description:
-      "Your description goes here. It can be a short paragraph providing more information about the title.",
+      "Far far away, behind the word mountains, far from the countries.",
   },
 ];
 
@@ -64,9 +65,12 @@ function Practice() {
     <div className="bg-gray-600 p-10">
       {/* First section */}
       <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2">
-        <div className="md:flex md:flex-col md:justify-center">
+        <div className="md:flex md:flex-col md:justify-center gap-8">
           <h2 className="text-white text-2xl md:text-4xl lg:text-6xl font-bold mb-4">
-          Our  <span style={{ color: "var(--primary-color)" }}>Practice Areas</span>
+            Our{" "}
+            <span style={{ color: "var(--primary-color)" }}>
+              Practice Areas
+            </span>
           </h2>
           <p className="md:text-lg text-gray-900">
             Far far away, behind the word mountains, far from the countries
@@ -78,6 +82,14 @@ function Practice() {
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in.
           </p>
+          <div>
+            <button
+              className="text-start p-5 px-8"
+              style={{ backgroundColor: "var(--primary-color)" }}
+            >
+              Learn More
+            </button>
+          </div>
         </div>
 
         <div>
@@ -90,22 +102,33 @@ function Practice() {
                 {card.icon}
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-800 mb-2">
+                <h1
+                  className="text-sm font-bold text-gray-800 mb-0"
+                  style={{ color: "var(--primary-color)" }}
+                >
                   {card.title}
                 </h1>
-                <p className="text-gray-600 text-center">{card.description}</p>
+                <p className="text-gray-600 text-start">{card.description}</p>
               </div>
             </div>
           ))}
-          <h5 className="max-w-sm mx-auto mb-4">More Practical Areas</h5>
+          <div className="practice-custom-box">
+            <h5
+              className="max-w-sm mx-auto mb-0 gap-4 flex items-center  "
+              style={{ color: "var(--primary-color)" }}
+            >
+              More Practice Areas <FaLongArrowAltRight />
+            </h5>
+          </div>
         </div>
       </div>
 
       {/* Second section (Dynamic Stat Cards) */}
       <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2">
-        <div className="md:flex md:flex-col md:justify-center">
-          <h2 className="text-black text-2xl md:text-4xl lg:text-6xl font-bold mb-4">
-            50 Years of Experience in Various Cases
+        <div className="md:flex md:flex-col md:justify-center ">
+          <h2 className="text-white text-2xl md:text-3xl lg:text-6xl font-medium mb-0">
+            <span style={{ color: "var(--primary-color)" }}> 50 Years </span>of
+            Experience in Various Cases
           </h2>
         </div>
 

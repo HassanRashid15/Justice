@@ -78,10 +78,11 @@ const Clients = () => {
   };
 
   return (
-    <div className="text-center my-10">
-      <div className="my-10">
-        <h1 className="text-3xl font-bold text-center text-slate-800 mb-3">
-          Empower Your Wealth
+    <div className="text-start my-10">
+      <div className="my-10 p-10 pb-5">
+        <h1 className="text-white text-2xl md:text-3xl lg:text-6xl font-medium mb-0">
+          <span style={{ color: "var(--primary-color)" }}> Empower Yo</span>ur
+          Wealth
         </h1>
         <p className="text-xl font-medium text-gray-600 my-5">
           Wealth Management Tailored for You, Backed by Trusted Banks
