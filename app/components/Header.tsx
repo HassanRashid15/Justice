@@ -69,7 +69,7 @@ function Header() {
                 href="/features"
                 className="block text-gray-500 hover:text-gray-300 py-2 md:mx-2"
               >
-                Dropdown
+                Service
               </Link>
             </li>
             <li>
@@ -93,7 +93,7 @@ function Header() {
                 href="/contact"
                 className="block text-gray-500 hover:text-gray-300 py-2 md:mx-2"
               >
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
